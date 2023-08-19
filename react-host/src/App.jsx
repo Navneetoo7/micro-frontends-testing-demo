@@ -18,5 +18,6 @@ const App = () => {
       <div ref={divRef}></div>
     </div>
   );
+  
 };
 ReactDOM.render(<App />, document.getElementById("app"));
